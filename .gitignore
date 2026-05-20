@@ -1,0 +1,42 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+kubeconfig*
+
+# Local instructor-only material
+instructor/
+
+# Local agent and publishing workflow
+AGENTS.md
+CLAUDE.md
+.claude-layer.md
+.student-export-ignore
+.agents/
+.codex/
+.codex-local/
+
+# Node/Java/build outputs
+node_modules/
+dist/
+build/
+target/
+.gradle/
+
+# Docker/Kubernetes local artifacts
+*.tar
+*.log
+coverage/
+
+# Python helpers, if any
+__pycache__/
+.venv/
+venv/
