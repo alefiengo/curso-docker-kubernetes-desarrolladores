@@ -1,3 +1,3 @@
-# Lab 02-variables-entorno
+# Lab 01: Stack Multi-servicio
 
 Este laboratorio se publicará cuando la sesión esté completa.

@@ -1,4 +1,4 @@
-# Práctica Opcional: Sesión 1
+# Desafío Opcional: Sesión 1
 
 Esta práctica es para reforzar y profundizar lo visto después de clase. No se entrega y no es requisito para la siguiente sesión.
 

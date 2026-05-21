@@ -23,6 +23,7 @@ CLAUDE.md
 .agents/
 .codex/
 .codex-local/
+.claude/
 
 # Node/Java/build outputs
 node_modules/

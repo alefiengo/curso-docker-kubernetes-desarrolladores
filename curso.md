@@ -29,8 +29,8 @@ Kubernetes se prepara en su bloque correspondiente con una herramienta local sep
 
 | Bloque | Sesiones | Horas | Enfoque |
 |---|---:|---:|---|
-| Docker fundamentos | 1–3 | 6h | Contenedores, imágenes, Dockerfile y registro |
-| Docker aplicado | 4–7 | 8h | Multi-stage builds, Compose, microservicios y seguridad |
+| Docker fundamentos | 1–4 | 8h | Contenedores, imágenes, Docker Hub, Dockerfile y optimización |
+| Docker aplicado | 5–7 | 6h | Compose, microservicios, seguridad e introducción a Kubernetes |
 | Kubernetes | 8–10 | 6h | Pods, Deployments, Services, configuración, Ingress y escalado |
 
 ## Desafíos Opcionales
@@ -45,36 +45,36 @@ Contenedores vs máquinas virtuales, imágenes, registros y primeros comandos Do
 
 ### [Sesión 2: Imágenes, Docker Hub y Ciclo de Vida](sesiones/sesion-02-imagenes-ciclo-vida/README.md)
 
-Imágenes oficiales, tags, `docker pull`, `docker images`, `docker inspect`, variables de entorno y volúmenes introductorios.
+Capas y estructura interna de las imágenes, inspección, Docker Hub, tags, variables de entorno, ciclo de vida completo del contenedor y persistencia básica con volúmenes.
 
-### [Sesión 3: Dockerfiles y Construcción de Imágenes](sesiones/sesion-03-dockerfiles/README.md)
+### [Sesión 3: Dockerfiles y Publicación](sesiones/sesion-03-dockerfiles/README.md)
 
-Anatomía de un `Dockerfile`, build context, `.dockerignore`, instrucciones principales y construcción de imágenes propias.
+Anatomía de un `Dockerfile`, instrucciones principales, build context, `.dockerignore`, CMD vs ENTRYPOINT y publicación de imágenes propias en Docker Hub.
 
 ### [Sesión 4: Multi-stage Builds y Optimización](sesiones/sesion-04-multistage-optimizacion/README.md)
 
-Capas, caché, multi-stage builds, imágenes base minimales, usuario no root y reducción de tamaño.
+Capas, caché de build, multi-stage builds, imágenes base minimales y usuario no root.
 
 ### [Sesión 5: Docker Compose, Redes y Volúmenes](sesiones/sesion-05-compose-redes-volumenes/README.md)
 
-`compose.yaml`, services, networks, volumes, DNS interno y persistencia.
+`compose.yaml`, services, redes personalizadas, DNS interno entre servicios y volúmenes nombrados con persistencia.
 
-### [Sesión 6: Microservicios con Base de Datos, Caché y Gateway](sesiones/sesion-06-microservicios/README.md)
+### [Sesión 6: Microservicios y Seguridad](sesiones/sesion-06-microservicios-seguridad/README.md)
 
-Conjunto multi-servicio con API, base de datos, caché y gateway. Depuración con logs y pruebas de conectividad.
+Stack multi-servicio con API, base de datos, caché y gateway. Escaneo de vulnerabilidades con Trivy y hardening básico de imágenes.
 
-### [Sesión 7: Seguridad, Escaneo y Preparación para Kubernetes](sesiones/sesion-07-seguridad/README.md)
+### [Sesión 7: Fundamentos de Kubernetes](sesiones/sesion-07-fundamentos-kubernetes/README.md)
 
-Escaneo con Trivy, interpretación básica de resultados, refuerzo de seguridad y limpieza del bloque Docker.
+Qué problema resuelve Kubernetes, arquitectura de alto nivel, componentes del cluster e instalación y validación del entorno local con minikube y kubectl.
 
-### [Sesión 8: Kubernetes: Arquitectura, Pods y Deployments](sesiones/sesion-08-kubernetes-pods-deployments/README.md)
+### [Sesión 8: Pods y Deployments](sesiones/sesion-08-pods-deployments/README.md)
 
-Cluster, control plane, worker nodes, `kubectl`, Pods, Deployments, ReplicaSets, escalado y autorrecuperación.
+Pods como unidad mínima, manifiestos YAML, Deployments, ReplicaSets, escalado y autorrecuperación.
 
 ### [Sesión 9: Services, Configuración y Persistencia](sesiones/sesion-09-services-configuracion/README.md)
 
-Services, labels, selectors, ConfigMaps, Secrets, volúmenes persistentes y StatefulSet como concepto.
+ClusterIP, NodePort, labels, selectors, ConfigMaps, Secrets y volúmenes persistentes.
 
-### [Sesión 10: Ingress, Probes, HPA, Observabilidad y Cierre](sesiones/sesion-10-ingress-probes-hpa/README.md)
+### [Sesión 10: Ingress, Probes, HPA y Cierre](sesiones/sesion-10-ingress-probes-hpa/README.md)
 
-Ingress, liveness/readiness probes, Metrics Server, HPA, logs, métricas y cierre del bloque Kubernetes.
+Ingress controller, liveness y readiness probes, Metrics Server, HPA y cierre del bloque Kubernetes.

@@ -1,3 +1,3 @@
-# Sesión 10: Ingress, Probes, HPA, Observabilidad y Cierre
+# Sesión 10: Ingress, Probes, HPA y Cierre
 
 Contenido disponible próximamente.

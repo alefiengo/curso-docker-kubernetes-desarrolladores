@@ -1,3 +1,3 @@
-# Lab 01-services
+# Lab 01: Services
 
 Este laboratorio se publicará cuando la sesión esté completa.

@@ -8,7 +8,7 @@ El curso avanza en tres bloques:
 2. **Docker Compose:** aplicaciones multi-servicio, redes, volúmenes y seguridad.
 3. **Kubernetes:** Pods, Deployments, Services, configuración, persistencia, Ingress, probes y escalado.
 
-Cada bloque cierra con una demostración del proyecto integrador.
+Cada bloque cierra con el proyecto integrador como hilo conductor técnico.
 
 ## Antes de la primera sesión
 
@@ -34,7 +34,7 @@ Los desafíos opcionales no se entregan y no son requisito para avanzar.
 
 El proyecto final es una entrega evaluable individual. Los criterios se publican antes de la última sesión, una vez cubierto el contenido del curso.
 
-El proyecto integrador que se demuestra en clase no es el proyecto que debes entregar.
+El proyecto integrador es el hilo conductor del curso. No es el proyecto que debes entregar.
 
 ## Cuando algo falla
 

@@ -2,7 +2,7 @@
 
 La evaluación verifica que entiendes el ciclo de vida de una aplicación contenerizada: construcción de imágenes, ejecución local, orquestación con Docker Compose y despliegue básico en Kubernetes.
 
-El proyecto integrador que se demuestra en clase no es el proyecto final entregable. El proyecto final toma el integrador como referencia técnica y se presenta por separado.
+El proyecto integrador es el hilo conductor del curso. No es el proyecto final entregable. El proyecto final toma el integrador como referencia técnica y se presenta por separado.
 
 ## Sistema de Calificación
 
