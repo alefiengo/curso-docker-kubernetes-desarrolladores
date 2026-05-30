@@ -59,13 +59,13 @@ Capas, caché de build, multi-stage builds, imágenes base minimales y usuario n
 
 `compose.yaml`, services, redes personalizadas, DNS interno entre servicios y volúmenes nombrados con persistencia.
 
-### [Sesión 6: Microservicios y Seguridad](sesiones/sesion-06-microservicios-seguridad/README.md)
+### [Sesión 6: Microservicios con Compose](sesiones/sesion-06-microservicios-compose/README.md)
 
-Stack multi-servicio con API, base de datos, caché y gateway. Escaneo de vulnerabilidades con Trivy y hardening básico de imágenes.
+Stack multi-servicio con Node.js, MongoDB, Redis y nginx como gateway. Redes internas, volúmenes y patrón BFF.
 
-### [Sesión 7: Fundamentos de Kubernetes](sesiones/sesion-07-fundamentos-kubernetes/README.md)
+### [Sesión 7: Seguridad de Imágenes e Introducción a Kubernetes](sesiones/sesion-07-seguridad-kubernetes/README.md)
 
-Qué problema resuelve Kubernetes, arquitectura de alto nivel, componentes del cluster e instalación y validación del entorno local con minikube y kubectl.
+Escaneo de vulnerabilidades con Trivy, hardening de imágenes y primeros pasos con Kubernetes: arquitectura, minikube y kubectl.
 
 ### [Sesión 8: Pods y Deployments](sesiones/sesion-08-pods-deployments/README.md)
 
